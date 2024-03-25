@@ -1,0 +1,78 @@
+:root {
+    --roxo-principal: #e0a8ff;
+    --preto-texto: #000000;
+    --branco-background: #ffffff;
+}
+
+body {
+    background-color: var(--branco-background);
+    color: var(--preto-texto);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+ol, ul {
+    padding-left: 1.2em;
+}
+
+#navbar {
+    background-color: var(--roxo-principal);
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 2em;
+}
+
+#titulo-nav {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    margin: 1em;
+}
+
+#titulo-descricao {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#lista-formas {
+    font-weight: bold;
+    list-style: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.forma-pequena {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1em;
+}
+
+#escolha-uma-forma {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.forma {
+    width: 350px;
+    height: 350px;
+}
+
+#mensagem-de-erro {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#footer {
+    background-color: var(--roxo-principal);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#donos {
+    text-align: center;
+    font-size: 12px;
+}
