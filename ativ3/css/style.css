@@ -1,0 +1,92 @@
+:root {
+    --azul-principal: #4060ff;
+    --vermelho-tabuada: #ff0000;
+    --laranja-tabuada: #f08000;
+    --amarelo-tabuada: #e8e800;
+    --verde-claro-tabuada: #80e880;
+    --verde-escuro-tabuada: #08c868;
+    --azul-claro-tabuada: #00e8e8;
+    --azul-anil-tabuada: #0080ff;
+    --azul-escuro-tabuada: #0000ff;
+    --azul-aroxeado-tabuada: #7000ff;
+    --roxo-tabuada: #a000e0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    background-color: var(--azul-principal);
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 2em;
+}
+
+.container {
+    padding-left: 1em;
+}
+
+#titulo-nav {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.tabuada {
+    margin-bottom: 1em;
+}
+
+.titulo-tabuada {
+    font-weight: bold;
+}
+
+#tabuada-do-1 {
+    color: var(--vermelho-tabuada);
+}
+
+#tabuada-do-2 {
+    color: var(--laranja-tabuada);
+}
+
+#tabuada-do-3 {
+    color: var(--amarelo-tabuada);
+}
+
+#tabuada-do-4 {
+    color: var(--verde-claro-tabuada);
+}
+
+#tabuada-do-5 {
+    color: var(--verde-escuro-tabuada);
+}
+
+#tabuada-do-6 {
+    color: var(--azul-claro-tabuada);
+}
+#tabuada-do-7 {
+    color: var(--azul-anil-tabuada);
+}
+
+#tabuada-do-8 {
+    color: var(--azul-escuro-tabuada);
+}
+
+#tabuada-do-9 {
+    color: var(--azul-aroxeado-tabuada);
+}
+
+#tabuada-do-10 {
+    color: var(--roxo-tabuada);
+}
+
+#footer {
+    background-color: var(--azul-principal);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#donos {
+    text-align: center;
+    font-size: 12px;
+}
