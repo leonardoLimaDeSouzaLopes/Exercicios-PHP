@@ -1,0 +1,46 @@
+:root {
+    --azul-fundo: #0000ff;
+    --par-branco:#fff;
+    --impar-vermelho: #ff0000;
+    --preto-fundo: #000;
+}
+
+#navbar {
+    background-color: var(--azul-principal);
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 2em;
+}
+
+#titulo-nav {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: var(--azul-principal);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#donos {
+    text-align: center;
+    font-size: 12px;
+}
+
+.numero {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin: 0;
+}
+
+.par{
+    background-color: var(--azul-fundo);
+    color: var(--par-branco);
+}
+
+.impar{
+    background-color: var(--preto-fundo);
+    color: var(--impar-vermelho);
+}
